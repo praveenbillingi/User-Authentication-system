@@ -1,0 +1,114 @@
+/* ====== GLOBAL PAGE STYLE ====== */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====== FORM CONTAINER ====== */
+form {
+  background: #fff;
+  width: 350px;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+form h2 {
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* ====== INPUT FIELDS ====== */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #667eea;
+}
+
+/* ====== BUTTONS ====== */
+button {
+  width: 95%;
+  background: #667eea;
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #5563de;
+}
+
+/* ====== LINKS ====== */
+a {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #667eea;
+}
+
+/* ====== DASHBOARD PAGE ====== */
+.dashboard {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: center;
+}
+
+.dashboard h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard a {
+  background: #667eea;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.dashboard a:hover {
+  background: #5563de;
+}
+
+/* ====== RESPONSIVE DESIGN ====== */
+@media (max-width: 450px) {
+  form, .dashboard {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}
